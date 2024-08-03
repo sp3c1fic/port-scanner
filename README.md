@@ -20,7 +20,7 @@ git clone [https://github.com/sp3c1fic/PortHunter.git](https://github.com/sp3c1f
 
 Navigate to the project directory:
 
-cd PortHunter
+cd port-scanner
 
 Run the script:
 
