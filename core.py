@@ -79,8 +79,12 @@ def main():
                 grab_banner(request, target, port)
     else:
 
-        print('\n[*] ERROR: Invalid IP address or port format.\n')
-        print(parser.print_help())
+        if len(sys.argv) != ARGUMENTS_LENGTH:
+            print(parser.print_help())
+        else:
+            if not is_ip_valid(sys.argv[2]) or not is_port_valid(sys.argv[4]) or not is_port_valid(sys.argv[-1]):
+                print('[*] ERROR Invalid IP address or port format!')
+                sys.exit(0)
 
 
 if __name__ == "__main__":
