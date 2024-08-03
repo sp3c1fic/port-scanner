@@ -16,7 +16,7 @@ Usage:
 
     bash
 
-git clone [https://github.com/yourusername/PortHunter.git](https://github.com/sp3c1fic/port-scanner)
+git clone [https://github.com/sp3c1fic/PortHunter.git](https://github.com/sp3c1fic/port-scanner)
 
 Navigate to the project directory:
 
